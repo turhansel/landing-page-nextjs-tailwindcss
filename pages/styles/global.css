@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-mono bg-[#F6FAFD];
+  }
+}
+
+@layer components {
+  .container {
+    @apply my-0 mx-auto max-w-5xl;
+  }
+  .row {
+    @apply flex flex-wrap -ml-4 -mr-4;
+  }
+  .column {
+    @apply pl-4 pr-4;
+  }
+  .nav-list {
+    @apply lg:flex lg:items-center lg:flex-wrap lg:-mx-4;
+  }
+  .nav-item {
+    @apply lg:px-4;
+  }
+  .nav-link {
+    @apply block text-base  text-primary hover:text-secondary hover:font-extrabold hover:transition-all duration-700;
+  }
+  .button {
+    @apply rounded-full px-[29px] py-[17px];
+  }
+}
