@@ -7,9 +7,13 @@ module.exports = {
     textColor: {
       primary: "#4b5d68",
       secondary: "#212353",
-      danger: "#e3342f",
+      softgray: "#4b5d68",
     },
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        "pink-bg": "url('/images/pink-bg.svg')",
+      }),
+    },
   },
   variants: {
     extend: {},

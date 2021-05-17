@@ -9,6 +9,7 @@
 }
 
 @layer components {
+  /* Header */
   .container {
     @apply my-0 mx-auto max-w-5xl;
   }
@@ -30,4 +31,6 @@
   .button {
     @apply rounded-full px-[29px] py-[17px];
   }
+
+  /* Hero Section */
 }

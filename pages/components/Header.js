@@ -48,8 +48,8 @@ export default function Header() {
           </div>
           <div className="column">
             <Link href="#">
-              <a className="button flex items-center space-x-4 bg-[#ffffff] bg-">
-                <span className="text-secondary">Request Demo</span>
+              <a className="button flex items-center space-x-4 bg-[#ffffff] shadow-md">
+                <span className="text-secondary ">Request Demo</span>
                 <i>
                   <img src="images/right-arrow.svg" alt="logo" />
                 </i>
