@@ -14,7 +14,7 @@ const FeaturesSection = () => {
         <div className="row">
           <div className="column flex-2 max-w-2 ">
             <div className="card">
-              <div className="card image"></div>
+              <div className="card image "></div>
               <div className="card content">
                 <div className="card header ">Search Data</div>
                 <div className="card body">
