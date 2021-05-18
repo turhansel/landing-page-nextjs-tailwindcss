@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 @layer base {
   body {
@@ -31,6 +30,4 @@
   .button {
     @apply rounded-full px-[29px] py-[17px];
   }
-
-  /* Hero Section */
 }

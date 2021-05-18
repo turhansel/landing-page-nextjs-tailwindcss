@@ -9,10 +9,17 @@ module.exports = {
       secondary: "#212353",
       softgray: "#4b5d68",
     },
+
     extend: {
       backgroundImage: (theme) => ({
         "pink-bg": "url('/images/pink-bg.svg')",
       }),
+      flex: {
+        2: "0 0 calc(100%/2)",
+      },
+      maxWidth: {
+        2: "max-w-[calc(100%/2)",
+      },
     },
   },
   variants: {
